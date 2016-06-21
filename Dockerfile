@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:3.3
 
 RUN apk add --update --update-cache bash docker
 ADD image-copy /usr/bin/image-copy
